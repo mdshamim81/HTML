@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select element</title>
+</head>
+<body>
+    <form action="/server">
+
+        <div>
+            Select your Profession
+            <select name="profession" id="">profession
+                <option>Select your option</option>
+                <option value="stu" selected>student</option>
+                <option value="dev">devloper</option>
+                <option value="farm">Farmer</option>
+                <option value="oth">Other</option>
+            </select>
+            
+        </div>
+
+        <!-- range element -->
+        
+        <label for="vol">Select your Volume Level : </label>
+        <input type="range"
+            id="vol" 
+            min="0" 
+            max="100" 
+            step="10" 
+            name="vol" 
+            value="70"
+        >
+
+        <!-- text area -->
+        <br>
+        <label for="feedback">Please give your valuable feedback</label>
+        <textarea name="" id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+
+        <button>submit</button>
+    </form>
+</body>
+</html>
